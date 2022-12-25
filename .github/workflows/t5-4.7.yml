@@ -2,6 +2,7 @@ name: T5-4.7 CI
 
 on:
   push:
+    workflow_dispatchdispatch:
     paths:
       - 'target/esp32/boards/LILYGO_T5-4.7/**'
       - 'target/esp32/esp32.mk'
